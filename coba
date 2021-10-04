@@ -1,1 +1,17 @@
-# jurnal-02
+@@ -4,14 +4,14 @@ public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);	        Scanner sc = new Scanner(System.in);
+        System.out.print("Nama :");	        System.out.print("Nama :");
+        String a = sc.nextLine();	        String a = sc.nextLine();
+        System.out.print("Kelas :");
+        int b = sc.nextInt();
+        System.out.print("Nim :");	        System.out.print("Nim :");
+        String b = sc.nextLine();	        long c = sc.nextLong();
+        System.out.print("Ipk :");	
+        float c = sc.nextFloat();	
+
+
+        System.out.println("Nama\t : "+ a);	        System.out.println("Nama\t : "+ a);
+        System.out.println("Nim\t :  "+ b);	        System.out.println("Kelas\t :  "+ b);
+        System.out.println("Ipk\t : "+ c);	        System.out.println("Nim\t : "+ c);
+    }	    }
+}	}
